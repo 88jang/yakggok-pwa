@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "cross-env ROLLUP_SKIP_NODEJS_NATIVE=1 vite build",
+    "build": "cross-env ROLLUP_SKIP_NODEJS_NATIVE=1 ROLLUP_USE_NODE_JS_IMPLEMENTATION=1 vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
